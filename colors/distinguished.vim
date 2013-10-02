@@ -40,17 +40,17 @@ call s:ColorDictParser({
 	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '000000',               '']
 	\ , 'Visual'                      : [    240,    253,               '',      '585858',  'dadada',               '']
 	\
-	\ , 'Cursor'                      : [     '',     '',               '',      'ffffff',  'dd4010',               '']
+	\ , 'Cursor'                      : [     '',     '',               '',            '',  '767676',               '']
 	\ , 'lCursor'                     : [     '',     '',               '',      'ffffff',  '89b6e2',               '']
 	\
-	\ , 'CursorLine'                  : [     '',    236,               '',            '',  '3a3a3a',               '']
-	\ , 'CursorLineNr'                : [    231,    240,               '',      'ffffff',  '585858',               '']
+	\ , 'CursorLine'                  : [     '',    233,               '',            '',  '121212',               '']
+	\ , 'CursorLineNr'                : [    253,    238,               '',      'dadada',  '444444',               '']
 	\ , 'CursorColumn'                : [    231,    237,               '',      'ffffff',  '3a3a3a',               '']
 	\
 	\ , 'Folded'                      : [    249,    234,               '',      'b2b2b2',  '1c1c1c',               '']
 	\ , 'FoldColumn'                  : [    243,    234,               '',      '767676',  '1c1c1c',               '']
 	\ , 'SignColumn'                  : [    231,    233,           'bold',      'ffffff',  '121212',           'bold']
-	\ , 'ColorColumn'                 : [      '',   233,               '',            '',  '262626',               '']
+	\ , 'ColorColumn'                 : [      '',   237,               '',            '',  '3a3a3a',               '']
 	\
 	\ , 'StatusLine'                  : [    231,    236,           'bold',      'ffffff',  '303030',           'bold']
 	\ , 'StatusLineNC'                : [    244,    232,               '',      '808080',  '080808',               '']
@@ -81,7 +81,7 @@ call s:ColorDictParser({
 	\ , 'SpellCap'                    : [    231,     31,           'bold',      'ffffff',  '0087af',           'bold']
 	\
 	\ , 'SpecialKey'                  : [    239,     '',               '',      '4e4e4e',        '',               '']
-	\ , 'NonText'                     : [     88,     '',               '',      '870000',        '',               '']
+	\ , 'NonText'                     : [     26,     '',               '',      '005fdf',        '',               '']
 	\ , 'MatchParen'                  : [    231,     25,           'bold',      'ffffff',  '005faf',           'bold']
 	\
 	\ , 'Constant'                    : [    137,     '',           'bold',      'af875f',        '',           'bold']
