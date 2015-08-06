@@ -67,7 +67,7 @@ call s:ColorDictParser({
 	\ , 'WarningMsg'                  : [    202,     '',           'bold',      'ff5f00',        '',           'bold']
 	\ , 'ErrorMsg'                    : [    196,     '',           'bold',      'ff0000',        '',           'bold']
 	\
-	\ , 'Comment'                     : [    243,    233,               '',      '767676',  '121212',               '']
+	\ , 'Comment'                     : [    249,    233,               '',      'b2b2b2',  '121212',               '']
 	\ , 'vimCommentTitleLeader'       : [    250,    233,               '',      'bcbcbc',  '121212',               '']
 	\ , 'vimCommentTitle'             : [    250,    233,               '',      'bcbcbc',  '121212',               '']
 	\ , 'vimCommentString'            : [    245,    233,               '',      '8a8a8a',  '121212',               '']
@@ -88,7 +88,7 @@ call s:ColorDictParser({
 	\ , 'Special'                     : [    150,     '',               '',      'afd787',        '',               '']
 	\ , 'Identifier'                  : [     66,     '',           'bold',      '5f8787',        '',           'bold']
 	\ , 'Statement'                   : [    186,     '',           'bold',      'd7d787',        '',           'bold']
-	\ , 'PreProc'                     : [    247,     '',               '',      '9e9e9e',        '',               '']
+	\ , 'PreProc'                     : [    173,     '',               '',      'df875f',        '',               '']
 	\ , 'Type'                        : [     67,     '',           'bold',      '5f87af',        '',           'bold']
 	\ , 'String'                      : [    143,     '',               '',      'afaf5f',        '',               '']
 	\ , 'Number'                      : [    173,     '',               '',      'd7875f',        '',               '']
