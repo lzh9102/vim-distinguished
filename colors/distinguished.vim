@@ -171,7 +171,7 @@ call s:ColorDictParser({
 	\ , 'markdownH2'                  : [    172,     '',           'bold',      'df8700',        '',           'bold']
 	\ , 'markdownH3'                  : [    231,     '',           'bold',      'ffffff',        '',           'bold']
 	\ , 'markdownCode'                : [    143,     '',               '',      'afaf5f',        '',               '']
-	\ , 'markdownLinkText'            : [    118,     '',           'bold',      '87ff00',        '',           'bold']
+	\ , 'markdownLinkText'            : [    87,      '',               '',      '5fffff',        '',               '']
 	\ , 'markdownUrl'                 : [    208,     '', 'underline,bold',      'ff8700',        '', 'underline,bold']
 \ })
 
