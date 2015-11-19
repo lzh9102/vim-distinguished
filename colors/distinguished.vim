@@ -172,7 +172,7 @@ call s:ColorDictParser({
 	\ , 'markdownH3'                  : [    231,     '',           'bold',      'ffffff',        '',           'bold']
 	\ , 'markdownCode'                : [    143,     '',               '',      'afaf5f',        '',               '']
 	\ , 'markdownLinkText'            : [    87,      '',               '',      '5fffff',        '',               '']
-	\ , 'markdownUrl'                 : [    208,     '', 'underline,bold',      'ff8700',        '', 'underline,bold']
+	\ , 'markdownUrl'                 : [    208,     '',      'underline',      'ff8700',        '',      'underline']
 \ })
 
 hi link htmlTag            xmlTag
