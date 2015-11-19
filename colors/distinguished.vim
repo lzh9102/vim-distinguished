@@ -166,6 +166,13 @@ call s:ColorDictParser({
 	\ , 'diffLine'                    : [     68,     '',           'bold',      '5f87d7',        '',           'bold']
 	\ , 'diffFile'                    : [    242,     '',               '',      '6c6c6c',        '',               '']
 	\ , 'diffNewFile'                 : [    242,     '',               '',      '6c6c6c',        '',               '']
+	\
+	\ , 'markdownH1'                  : [    118,     '',           'bold',      '87ff00',        '',           'bold']
+	\ , 'markdownH2'                  : [    172,     '',           'bold',      'df8700',        '',           'bold']
+	\ , 'markdownH3'                  : [    231,     '',           'bold',      'ffffff',        '',           'bold']
+	\ , 'markdownCode'                : [    143,     '',               '',      'afaf5f',        '',               '']
+	\ , 'markdownLinkText'            : [    118,     '',           'bold',      '87ff00',        '',           'bold']
+	\ , 'markdownUrl'                 : [    208,     '', 'underline,bold',      'ff8700',        '', 'underline,bold']
 \ })
 
 hi link htmlTag            xmlTag
